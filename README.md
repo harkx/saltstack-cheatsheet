@@ -9,19 +9,16 @@ This list is partly inspired by the fine lists on:
 
 # Minion status
 
-Check the status of my minions.
+You can also use several commands to check if minions are alive and kicking but I prefer manage.status/up/down.
 
 ```
 salt-run manage.status  # What is the status of all my minions? (both up and down)
 salt-run manage.up      # Any minions that are up?
 salt-run manage.down    # Any minions that are down?
+salt \* test.ping       # Use test module to check if minion is up and responding.
+                        # (Not an ICMP ping!)
 ```
 
-You can also use other commands to check if minions are alive and kicking but I prefer the manage.status.
-
-```
-salt \* test.ping
-```
 
 # Jobs in Salt
 
