@@ -22,7 +22,7 @@ salt \* test.ping       # Use test module to check if minion is up and respondin
 
 # Jobs in Salt
 
-Some jobs operations that are often used. ( http://docs.saltstack.com/en/latest/topics/jobs/ )
+Some jobs operations that are often used. (http://docs.saltstack.com/en/latest/topics/jobs/)
 ```
 salt-run jobs.active      # get list of active jobs
 salt-run jobs.list_jobs   # get list of historic jobs
@@ -31,7 +31,7 @@ salt-run jobs.lookup_jid <job id number>  # get details of this specific job
 
 # Salt Cloud
 
-Salt Cloud is used to provision virtual machines in the cloud. (surprise!) ( http://docs.saltstack.com/en/latest/topics/cloud/ )
+Salt Cloud is used to provision virtual machines in the cloud. (surprise!) (http://docs.saltstack.com/en/latest/topics/cloud/)
 
 ```salt-cloud -p profile_do my-vm-name -l debug``` - Provision using profile_do as profile and my-vm-name as the virtual machine name while using the debug option.
 
