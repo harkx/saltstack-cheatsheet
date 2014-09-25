@@ -19,7 +19,6 @@ salt \* test.ping       # Use test module to check if minion is up and respondin
                         # (Not an ICMP ping!)
 ```
 
-
 # Jobs in Salt
 
 Some jobs operations that are often used. (http://docs.saltstack.com/en/latest/topics/jobs/)
@@ -50,6 +49,19 @@ salt \* pkg.version bash              # get current version of the bash package
 salt \* pkg.install bash              # install or upgrade bash package
 salt \* pkg.install bash refresh=True # install or upgrade bash package but
                                       # refresh the package database before installing.
+```
+
+# Grains
+
+List all grains on all minions
+```
+salt \* grains.ls
+```
+
+Look at a single grains item to list the values.
+```
+salt \* grains.item os      # Show the value of the OS grain for every minion
+salt \* grains.item roles  # Show the value of the roles grain for every minion
 ```
 
 # Documentation
