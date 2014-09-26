@@ -51,6 +51,13 @@ salt \* pkg.install bash refresh=True # install or upgrade bash package but
                                       # refresh the package database before installing.
 ```
 
+Apply a specific state file to a (group of..) minion(s). Do not use the .sls extension. (just like in the state files!)
+
+```
+salt \* state.sls mystatefile           # mystatefile.sls will be applied to *
+salt 'minion1' state.sls prod.somefile  # prod/somefile.sls will be applied to minion1
+```
+
 # Grains
 
 List all grains on all minions
@@ -61,7 +68,7 @@ salt \* grains.ls
 Look at a single grains item to list the values.
 ```
 salt \* grains.item os      # Show the value of the OS grain for every minion
-salt \* grains.item roles  # Show the value of the roles grain for every minion
+salt \* grains.item roles   # Show the value of the roles grain for every minion
 ```
 
 # Documentation
