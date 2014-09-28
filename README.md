@@ -58,6 +58,16 @@ salt \* state.sls mystatefile           # mystatefile.sls will be applied to *
 salt 'minion1' state.sls prod.somefile  # prod/somefile.sls will be applied to minion1
 ```
 
+Check status of a service and manipulate services.
+
+```
+salt \* service.status <service name>
+salt \* service.available <service name>
+salt \* service.start <service name>
+salt \* service.restart <service name>
+salt \* service.stop <service name>
+```
+
 # Grains
 
 List all grains on all minions
