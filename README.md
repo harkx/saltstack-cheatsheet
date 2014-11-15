@@ -45,7 +45,7 @@ Some stuff that is specifically of interest for sysadmins.
 System Reboot
 
 ```
-alt '*' system.reboot
+salt '*' system.reboot
 ```
 
 Packages..
