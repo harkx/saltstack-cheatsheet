@@ -42,10 +42,11 @@ Salt Cloud is used to provision virtual machines in the cloud. (surprise!) (http
 
 Some stuff that is specifically of interest for sysadmins.
 
-System Reboot
+System and status
 
 ```
 salt '*' system.reboot
+salt '*' status.uptime
 ```
 
 Packages..
@@ -98,6 +99,7 @@ salt '*' sys.doc         # output sys.doc (= all documentation)
 salt '*' sys.doc pkg     # only sys.doc for pkg module
 salt '*' sys.doc network # only sys.doc for network module
 salt '*' sys.doc system  # only sys.doc for system module
+salt '*' sys.doc status  # only sys.doc for status module
 ```
 
 ## Documentation on the web
