@@ -1,9 +1,21 @@
+# SaltStack Cheat Sheet
 
 SaltStack Cheat Sheet .. My collection of often used commands on my Salt master.
 
 This list is partly inspired by the fine lists on:
 * http://www.xenuser.org/saltstack-cheat-sheet/
 * https://github.com/saltstack/salt/wiki/Cheat-Sheet
+
+**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+
+- [Minion status](#)
+- [Jobs in Salt](#)
+- [Sysadmin specific](#)
+- [Salt Cloud](#)
+- [Grains](#)
+- [Documentation](#)
+	- [Documentation on the system](#)
+	- [Documentation on the web](#)
 
 # Minion status
 
