@@ -17,7 +17,7 @@ This list is partly inspired by the fine lists on:
 	- [Target minion with state files](#)
 	- [Check status of a service and manipulate services](#)
 - [Salt Cloud](#)
-- [Grains](#)
+- [Grains](#grains)
 - [Documentation](#)
 	- [Documentation on the system](#)
 	- [Documentation on the web](#)
