@@ -8,19 +8,19 @@ This list is partly inspired by the fine lists on:
 
 **Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
-- [SaltStack Cheat Sheet](#SaltStack-Cheat-Sheet)
-- [Minion status](#)
-- [Jobs in Salt](#)
-- [Sysadmin specific](#)
-	- [System and status](#)
-	- [Packages](#)
-	- [Target minion with state files](#)
-	- [Check status of a service and manipulate services](#)
-- [Salt Cloud](#)
+- [SaltStack Cheat Sheet](#saltstack-cheat-sheet)
+- [Minion status](#minion-status)
+- [Jobs in Salt](#jobs-in-salt)
+- [Sysadmin specific](#sysadmin-specific)
+	- [System and status](#system-and-status)
+	- [Packages](#packages)
+	- [Target minion with state files](#target-minion-with-state-files)
+	- [Check status of a service and manipulate services](#check-status-of-a-service-and-manipulate-services)
+- [Salt Cloud](#salt-cloud)
 - [Grains](#grains)
-- [Documentation](#)
-	- [Documentation on the system](#)
-	- [Documentation on the web](#)
+- [Documentation](#documentation)
+	- [Documentation on the system](#documentation-on-the-system)
+	- [Documentation on the web](#documentation-on-the-web)
 
 
 # Minion status
