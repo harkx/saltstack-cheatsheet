@@ -8,6 +8,7 @@ This list is partly inspired by the fine lists on:
 
 **Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
+- [SaltStack Cheat Sheet](#SaltStack-Cheat-Sheet)
 - [Minion status](#)
 - [Jobs in Salt](#)
 - [Sysadmin specific](#)
@@ -20,6 +21,7 @@ This list is partly inspired by the fine lists on:
 - [Documentation](#)
 	- [Documentation on the system](#)
 	- [Documentation on the web](#)
+
 
 # Minion status
 
