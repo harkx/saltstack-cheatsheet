@@ -11,6 +11,10 @@ This list is partly inspired by the fine lists on:
 - [Minion status](#)
 - [Jobs in Salt](#)
 - [Sysadmin specific](#)
+	- [System and status](#)
+	- [Packages](#)
+	- [Target minion with state files](#)
+	- [Check status of a service and manipulate services](#)
 - [Salt Cloud](#)
 - [Grains](#)
 - [Documentation](#)
@@ -42,14 +46,14 @@ salt-run jobs.lookup_jid <job id number>  # get details of this specific job
 
 Some stuff that is specifically of interest for sysadmins.
 
-System and status
+## System and status
 
 ```
 salt '*' system.reboot
 salt '*' status.uptime
 ```
 
-Packages..
+## Packages
 
 ```
 salt '*' pkg.list_upgrades             # get a list of packages that need to be upgrade
@@ -60,6 +64,8 @@ salt '*' pkg.install bash refresh=True # install or upgrade bash package but
                                       # refresh the package database before installing.
 ```
 
+## Target minion with state files
+
 Apply a specific state file to a (group of..) minion(s). Do not use the .sls extension. (just like in the state files!)
 
 ```
@@ -67,7 +73,7 @@ salt '*' state.sls mystatefile           # mystatefile.sls will be applied to *
 salt 'minion1' state.sls prod.somefile  # prod/somefile.sls will be applied to minion1
 ```
 
-Check status of a service and manipulate services.
+## Check status of a service and manipulate services
 
 ```
 salt '*' service.status <service name>
