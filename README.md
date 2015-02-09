@@ -23,7 +23,7 @@ This list is partly inspired by the fine lists on:
   - [Check status of a service and manipulate services](#check-status-of-a-service-and-manipulate-services)
 - [Salt Cloud](#salt-cloud)
 
-# First things first : Documentation
+# Documentation
 This is important because the help system is very good.
 
 ## Documentation on the system
