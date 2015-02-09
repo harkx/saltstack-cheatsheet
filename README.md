@@ -1,4 +1,4 @@
-                        # SaltStack Cheat Sheet
+# SaltStack Cheat Sheet
 
 SaltStack Cheat Sheet .. My collection of often used commands on my Salt master.
 
