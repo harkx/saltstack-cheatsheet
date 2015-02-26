@@ -93,6 +93,7 @@ salt '*' status.uptime           # Get the uptime of all our minions
 ## Packages
 ```
 salt '*' pkg.list_upgrades             # get a list of packages that need to be upgrade
+salt '*' pkg.upgrade                   # Upgrades all packages via apt-get dist-upgrade (or similar)
 
 salt '*' pkg.version bash              # get current version of the bash package
 salt '*' pkg.install bash              # install or upgrade bash package
