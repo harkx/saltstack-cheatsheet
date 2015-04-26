@@ -113,7 +113,11 @@ salt '*' service.stop <service name>
 # Salt Cloud
 Salt Cloud is used to provision virtual machines in the cloud. (surprise!) (http://docs.saltstack.com/en/latest/topics/cloud/)
 
-```salt-cloud -p profile_do my-vm-name -l debug``` - Provision using profile_do as profile and my-vm-name as the virtual machine name while using the debug option.
-```salt-cloud -d my-vm-name``` - destroy the my-vm-name virtual machine.
-```salt-cloud -u``` - Update salt-bootstrap to the latest develop version on GitHub.
+```
+salt-cloud -p profile_do my-vm-name -l debug  # Provision using profile_do as profile
+                                              # and my-vm-name as the virtual machine name while
+                                              # using the debug option.
+salt-cloud -d my-vm-name                      # destroy the my-vm-name virtual machine.
+salt-cloud -u                                 # Update salt-bootstrap to latest develop version on GitHub.
+```
 
