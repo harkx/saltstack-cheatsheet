@@ -73,6 +73,12 @@ salt '*' grains.item os      # Show the value of the OS grain for every minion
 salt '*' grains.item roles   # Show the value of the roles grain for every minion
 ```
 
+Manipulate grains.
+```
+salt 'minion1' grains.setval mygrain True  # Set mygrain to True (create if it doesn't exist yet)
+salt 'minion1' grains.delval mygrain       # Delete the value of the grain
+```
+
 # Jobs in Salt
 Some jobs operations that are often used. (http://docs.saltstack.com/en/latest/topics/jobs/)
 ```
