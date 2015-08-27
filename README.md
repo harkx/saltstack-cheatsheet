@@ -125,8 +125,8 @@ Do some network stuff on your minions.
 salt 'minion1' network.ip_addrs          # Get IP of your minion
 salt 'minion1' network.ping <hostname>   # Ping a host from your minion
 salt 'minion1' network.traceroute <hostname>   # Traceroute a host from your minion
-salt 'minion'  network.get_hostname      # Get hostname
-salt 'minion'  network.mod_hostname      # Modify hostname
+salt 'minion1' network.get_hostname      # Get hostname
+salt 'minion1' network.mod_hostname      # Modify hostname
 ```
 
 # Salt Cloud
