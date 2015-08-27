@@ -21,6 +21,7 @@ This list is partly inspired by the fine lists on:
   - [System and status](#system-and-status)
   - [Packages](#packages)
   - [Check status of a service and manipulate services](#check-status-of-a-service-and-manipulate-services)
+  - [Network](#network)
 - [Salt Cloud](#salt-cloud)
 
 # Documentation
@@ -114,6 +115,18 @@ salt '*' service.available <service name>
 salt '*' service.start <service name>
 salt '*' service.restart <service name>
 salt '*' service.stop <service name>
+```
+
+## Network
+
+Do some network stuff on your minions.
+
+```
+salt 'minion1' network.ip_addrs          # Get IP of your minion
+salt 'minion1' network.ping <hostname>   # Ping a host from your minion
+salt 'minion1' network.traceroute <hostname>   # Traceroute a host from your minion
+salt 'minion'  network.get_hostname      # Get hostname
+salt 'minion'  network.mod_hostname      # Modify hostname
 ```
 
 # Salt Cloud
