@@ -50,6 +50,8 @@ You can also use several commands to check if minions are alive and kicking but 
 salt-run manage.status  # What is the status of all my minions? (both up and down)
 salt-run manage.up      # Any minions that are up?
 salt-run manage.down    # Any minions that are down?
+salt-run manage.alived  # Show all alive minions
+salt '*' test.version   # Display salt version
 salt '*' test.ping      # Use test module to check if minion is up and responding.
                         # (Not an ICMP ping!)
 ```
