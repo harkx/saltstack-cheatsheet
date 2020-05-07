@@ -8,9 +8,12 @@ This list is partly inspired by the fine lists on:
 * http://www.xenuser.org/saltstack-cheat-sheet/
 * https://github.com/saltstack/salt/wiki/Cheat-Sheet
 
+# Table of Contents
+
 <!-- TOC -->
 
 - [SaltStack cheat sheet intro](#saltstack-cheat-sheet-intro)
+- [Table of Contents](#table-of-contents)
 - [Documentation](#documentation)
     - [Documentation on the system](#documentation-on-the-system)
     - [Documentation on the web](#documentation-on-the-web)
