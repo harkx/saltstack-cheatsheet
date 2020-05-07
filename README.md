@@ -1,28 +1,32 @@
-# SaltStack Cheat Sheet
+# SaltStack cheat sheet intro
 
-SaltStack Cheat Sheet .. My collection of often used commands on my Salt master.
+SaltStack cheat sheet .. My collection of often used commands on my Salt master.
+
+The TOC is created with [Auto Markdown TOC](https://marketplace.visualstudio.com/items?itemName=huntertran.auto-markdown-toc).
 
 This list is partly inspired by the fine lists on:
 * http://www.xenuser.org/saltstack-cheat-sheet/
 * https://github.com/saltstack/salt/wiki/Cheat-Sheet
 
-**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+<!-- TOC -->
 
-- [SaltStack Cheat Sheet](#saltstack-cheat-sheet)
-- [First things first : Documentation](#documentation)
-  - [Documentation on the system](#documentation-on-the-system)
-  - [Documentation on the web](#documentation-on-the-web)
+- [SaltStack cheat sheet intro](#saltstack-cheat-sheet-intro)
+- [Documentation](#documentation)
+    - [Documentation on the system](#documentation-on-the-system)
+    - [Documentation on the web](#documentation-on-the-web)
 - [Minions](#minions)
-  - [Minion status](#minion-status)
-  - [Target minion with state files](#target-minion-with-state-files)
-  - [Grains](#grains)
+    - [Minion status](#minion-status)
+    - [Target minion with state files](#target-minion-with-state-files)
+    - [Grains](#grains)
 - [Jobs in Salt](#jobs-in-salt)
 - [Sysadmin specific](#sysadmin-specific)
-  - [System and status](#system-and-status)
-  - [Packages](#packages)
-  - [Check status of a service and manipulate services](#check-status-of-a-service-and-manipulate-services)
-  - [Network](#network)
+    - [System and status](#system-and-status)
+    - [Packages](#packages)
+    - [Check status of a service and manipulate services](#check-status-of-a-service-and-manipulate-services)
+    - [Network](#network)
 - [Salt Cloud](#salt-cloud)
+
+<!-- /TOC -->
 
 # Documentation
 This is important because the help system is very good.
